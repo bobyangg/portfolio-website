@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bob Yang</title>
+  <meta name="description" content="Bob Yang is a computer science student at the University of Ottawa and a software engineer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="top">
+    <a href="#top" class="top__name">Bob Yang</a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#arch">Arch</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hello">
+      <h1>Hi, I’m Bob.</h1>
+      <p class="lead">I’m a computer science student at the University of Ottawa and a software engineer.</p>
+      <p>Right now I’m interning at Rivian in Vancouver. Before that I spent co-op terms writing computer vision code in C++, building internal tools with Python, and wiring up data pipelines on Kubernetes.</p>
+      <p class="hello__links">
+        <a href="mailto:bobyang2004@gmail.com">Email</a>
+        <a href="https://github.com/bobyangg" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/bobyang" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </section>
+
+    <section id="work">
+      <h2>Where I’ve worked</h2>
+      <ol class="timeline">
+        <li>
+          <span class="when">2026</span>
+          <div>
+            <h3>Rivian <span>Software Engineer Intern · Vancouver</span></h3>
+          </div>
+        </li>
+        <li>
+          <span class="when">2025</span>
+          <div>
+            <h3>Zebra Technologies <span>Software Engineer Intern · Montreal</span></h3>
+          </div>
+        </li>
+        <li>
+          <span class="when">2025</span>
+          <div>
+            <h3>Nokia <span>Software Developer Intern · Ottawa</span></h3>
+          </div>
+        </li>
+        <li>
+          <span class="when">2024</span>
+          <div>
+            <h3>Statistics Canada <span>Software Developer Intern · Ottawa</span></h3>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="arch">
+      <h2>Something I built</h2>
+      <div class="project">
+        <img class="project__mark" src="assets/arch-logo.png" alt="Arch app logo" width="52" height="52" />
+        <div>
+          <h3>Arch <span>Dating app · 2026</span></h3>
+          <p>Arch is a native app I co-built in Swift and SwiftUI. We made our own design system with light and dark themes and animated launch and navigation, then got it into testers’ hands through TestFlight and the App Store.</p>
+          <p>I also built the backend on Supabase: PostgreSQL with row-level security, Deno edge functions for Sign in with Apple, DeviceCheck, and push notifications, and AI profile reviews using the Claude API.</p>
+          <p class="stackline">Swift · SwiftUI · Supabase · PostgreSQL · TypeScript · GitHub Actions · TestFlight</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <h2>What I work with</h2>
+      <dl class="tools">
+        <div><dt>Languages</dt><dd>Swift, Kotlin, Python, TypeScript, Java, C/C++, JavaScript, SQL</dd></div>
+        <div><dt>Mobile</dt><dd>SwiftUI, UIKit, TestFlight, Flutter</dd></div>
+        <div><dt>Backend</dt><dd>Django, Flask, Supabase, PostgreSQL, Redis, REST APIs, WebSockets</dd></div>
+        <div><dt>Tools</dt><dd>Docker, Kubernetes, GitLab CI/CD, GitHub Actions, Terraform, Azure, Git</dd></div>
+      </dl>
+      <p class="school">I’m doing an Honours BSc in Computer Science (co-op) at the University of Ottawa, and I graduate in December 2027.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Say hi</h2>
+      <p>The best way to reach me is email: <a href="mailto:bobyang2004@gmail.com">bobyang2004@gmail.com</a>. I’m also on <a href="https://linkedin.com/in/bobyang" target="_blank" rel="noopener">LinkedIn</a> and <a href="https://github.com/bobyangg" target="_blank" rel="noopener">GitHub</a>.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <span>© 2026 Bob Yang</span>
+    <a href="#top">Back to top</a>
+  </footer>
+
+</body>
+</html>
