@@ -98,13 +98,7 @@ h3 span { font-weight: 400; font-size: 15px; color: var(--soft); margin-left: 8p
 .timeline p { color: var(--soft); margin-top: 6px; }
 
 /* ---------- Project ---------- */
-.project { display: grid; grid-template-columns: 64px 1fr; gap: 16px; }
-.project__mark {
-  width: 52px; height: 52px; margin-top: 4px;
-  border-radius: 12px; display: block;
-}
-.project p { color: var(--soft); margin-top: 12px; }
-.project .stackline { font-size: 14px; margin-top: 18px; }
+.timeline .stackline { font-size: 14px; margin-top: 4px; }
 
 /* ---------- Tools ---------- */
 .tools div { display: grid; grid-template-columns: 110px 1fr; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); }
@@ -120,8 +114,7 @@ h3 span { font-weight: 400; font-size: 15px; color: var(--soft); margin-left: 8p
 .foot a { text-decoration: none; }
 
 @media (max-width: 520px) {
-  .timeline li, .project { grid-template-columns: 1fr; gap: 4px; }
-  .project__mark { margin-bottom: 10px; }
+  .timeline li { grid-template-columns: 1fr; gap: 4px; }
   h3 span { display: block; margin-left: 0; white-space: normal; }
   .tools div { grid-template-columns: 1fr; gap: 2px; }
 }
