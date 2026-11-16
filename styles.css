@@ -81,6 +81,7 @@ a:hover { color: var(--accent); }
 /* ---------- Sections ---------- */
 section + section { padding: clamp(40px, 7vw, 64px) 0; border-top: 1px solid var(--line); }
 h2 { font-family: var(--serif); font-weight: 400; font-style: italic; font-size: 26px; color: var(--soft); margin-bottom: 30px; }
+h2:last-child { margin-bottom: 0; }
 h3 { font-size: 18px; font-weight: 600; line-height: 1.4; }
 h3 span { font-weight: 400; font-size: 15px; color: var(--soft); margin-left: 8px; white-space: nowrap; }
 
