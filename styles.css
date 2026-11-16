@@ -89,6 +89,12 @@ h3 span { font-weight: 400; font-size: 15px; color: var(--soft); margin-left: 8p
 .timeline li { display: grid; grid-template-columns: 64px 1fr; gap: 16px; }
 .timeline li + li { margin-top: 16px; }
 .when { font-size: 14px; color: var(--soft); font-variant-numeric: tabular-nums; padding-top: 4px; }
+.role { display: flex; align-items: flex-start; gap: 12px; }
+.logo {
+  flex: none; width: 28px; height: 28px; margin-top: -1px;
+  border-radius: 7px; background: #fff; object-fit: cover;
+  box-shadow: 0 0 0 1px var(--line);
+}
 .timeline p { color: var(--soft); margin-top: 6px; }
 
 /* ---------- Project ---------- */
